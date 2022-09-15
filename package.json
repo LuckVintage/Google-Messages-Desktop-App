@@ -1,0 +1,24 @@
+{
+  "name": "GoogleMessages",
+  "productName": "Google Messages",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron dev",
+    "compile": "electron",
+    "dist": "yarn compile && electron-builder",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+	  },
+	  "author": {
+    "name": "Andrew Peacock",
+    "email": "andrew@andrewpeacock.net",
+    "url": "https://nextpvr.luckvintage.net"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "electron": "^20.1.3",
+    "electron-builder": "^23.3.3"
+  }
+}
